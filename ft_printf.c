@@ -51,10 +51,7 @@ int	ft_printf(const char *format, ...)
 		{
 			format++;
 			if (!*format)
-			{
 				return (-1);
-				break ;
-			}
 			count += specifier(*format, arg);
 		}
 		else
